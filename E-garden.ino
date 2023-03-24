@@ -5,17 +5,17 @@
 #include "ESP32_MailClient.h"
 #include <Alfredo_NoU2.h>
 
-#define emailSenderAccount    "esp32melonbot@gmail.com"
-#define emailSenderPassword   "growMelons24/7"
-#define emailRecipient        "jonahtwahl@gmail.com"
+#define emailSenderAccount    "ROBOT EMAIL ADDRESS"
+#define emailSenderPassword   "ROBOT EMAIL PASS"
+#define emailRecipient        "YOUR EMAIL HERE"
 #define smtpServer            "smtp.gmail.com"
 #define smtpServerPort        465
 #define uS_TO_S_FACTOR        1000000             //conversion from microseconds to seconds
 #define TIME_TO_SLEEP         18000               //seconds to sleep
 #define TIME_TO_PUMP          30000               //ms water pump is active
 
-const char* ssid      = "Wahlwifi"; // "the wifi";
-const char* password  = "wahlboys4456";// "thewifipassword";
+const char* ssid      = "YOUR WIFI SSID HERE";
+const char* password  = "YOUR WIFI PASS HERE";
 const char* host      = "api.thingspeak.com";
 
 const int moistureSensorPin = 35;
